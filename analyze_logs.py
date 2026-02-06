@@ -9,3 +9,9 @@
 # 4. Generate report: `reports/LOG-ANALYSIS-YYYYMMDD-HHMMSS.json`
 # 5. Print summary to terminal
 
+from log_parser import detect_log_format
+
+
+
+
+
