@@ -1,0 +1,5 @@
+# do not
+
+logs/*
+reports/*
+requirements.txt
