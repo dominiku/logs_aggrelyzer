@@ -66,7 +66,7 @@ def parse_log_line(line: str) -> dict:
         print(log_raw_data)
         return log_raw_data
     else:
-        print("wtf")
+        print("No line has been detected — IDK what would be the best message here?")
 
 # Testing the idea
 

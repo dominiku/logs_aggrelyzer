@@ -9,7 +9,7 @@
 # 4. Generate report: `reports/LOG-ANALYSIS-YYYYMMDD-HHMMSS.json`
 # 5. Print summary to terminals
 
-from log_parser import detect_log_format, parse_log_line, parse_api_log, parse_database_log, parse_web_server_log
+from log_parser import parse_log_line
 from pathlib import Path
 import json
 
@@ -39,15 +39,15 @@ def main():
     
         if log_line == "api_json":
             api_json_count += 1
-            print(parse_api_log(line))
+            print(log_line)
         elif log_line == "database":
             database_count +=1
-            print(parse_database_log(line))
+            print(log_line)
         else:
             web_server_count +=1
-            print(parse_web_server_log(line))
+            print(log_line)
             
-    print(api_json_count, database_count, web_server_count)
+    print(log_line)
 
 if __name__ == "__main__":
     main()
