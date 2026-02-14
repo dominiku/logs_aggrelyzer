@@ -1,6 +1,5 @@
 import re
 import json
-import random 
 
 def detect_log_format(line: str) -> str:
     """Detect if line is web_server, database, api_call, or unknown format."""
@@ -55,37 +54,12 @@ def parse_log_line(line: str) -> dict:
 
     if log_type == "api_json":
         log_raw_data = parse_api_log(line)
-        print(log_raw_data)
-        return log_raw_data
+        return { "log_type": log_type, "line_data": log_raw_data }
     elif log_type == "database":
         log_raw_data = parse_database_log(line)
-        print(log_raw_data)
-        return log_raw_data
+        return { "log_type": log_type, "line_data": log_raw_data }
     elif log_type == "web_server":
         log_raw_data = parse_web_server_log(line)
-        print(log_raw_data)
-        return log_raw_data
+        return { "log_type": log_type, "line_data": log_raw_data }
     else:
         print("No line has been detected — IDK what would be the best message here?")
-
-# Testing the idea
-
-# db = '[2026-01-26 10:23:46] ERROR Connection timeout host=db1'
-# web = '2026-01-26 10:23:45 INFO GET /api/users 200 45ms'
-# api = '{"timestamp": "2026-01-26T10:23:49Z", "endpoint": "/profile", "status": 200, "duration_ms": 23}'
-
-# logs = [db, web, api]
-# line_to_parse = random.choice(logs)
-
-# result = parse_log_line(line_to_parse)
-
-
-
-
-# Future stuff 
-
-# def categorize_severity(log_entry: dict) -> str:
-#     """Return 'error', 'warning', 'info' based on entry."""
-
-
-

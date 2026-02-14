@@ -1,6 +1,6 @@
 # do not
 
-logs/*
+# logs/*
 reports/*
 requirements.txt
 re.ipynb
