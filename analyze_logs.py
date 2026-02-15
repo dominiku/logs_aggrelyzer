@@ -8,7 +8,7 @@ def read_logs(directory: str):
                 yield from f
 
     except FileNotFoundError:
-        print(f"Error: file not found in {filepath}")
+        print(f"Error: file not found in {directory}")
 
 logs_dir = "logs"
 

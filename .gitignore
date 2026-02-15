@@ -1,6 +1,7 @@
 # do not expose
 
-# logs/*
 reports/*
 requirements.txt
 re.ipynb
+!logs/
+!logs/*.log

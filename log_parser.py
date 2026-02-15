@@ -35,6 +35,7 @@ def parse_database_log(line: str) -> dict:
 
     if match:
         return {
+            "status": "ok",
             "timestamp": match.group(1),
             "log_level": match.group(2),
             "message": match.group(3)
@@ -62,4 +63,4 @@ def parse_log_line(line: str) -> dict:
         log_raw_data = parse_web_server_log(line)
         return { "log_type": log_type, "line_data": log_raw_data }
     else:
-        print("No line has been detected — IDK what would be the best message here?")
+        return {"log_type": "unknown", "line_data": {"raw": line}}
