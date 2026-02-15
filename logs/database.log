@@ -1,0 +1,58 @@
+[2026-01-26 10:23:46] ERROR Connection timeout host=db1
+[2026-01-26 10:23:47] INFO Query executed in 45ms
+[2026-01-26 10:23:48] ERROR Deadlock detected table=orders
+[2026-01-26 10:23:49] WARN Slow query detected 2.3s
+[2026-01-26 10:23:46] ERROR Connection timeout host=db1
+[2026-01-26 10:23:47] INFO Query executed in 45ms
+[2026-01-26 10:23:48] ERROR Deadlock detected table=orders
+[2026-01-26 10:23:49] WARN Slow query detected 2.3s
+[2026-01-26 10:23:50] ERROR Connection timeout host=db2
+[2026-01-26 10:23:51] INFO Query executed in 60ms
+[2026-01-26 10:23:52] ERROR Deadlock detected table=products
+[2026-01-26 10:23:53] WARN Slow query detected 1.5s
+[2026-01-26 10:23:54] ERROR Connection timeout host=db3
+[2026-01-26 10:23:55] WARN Slow query detected 2.1s
+[2026-01-26 10:23:56] ERROR Connection timeout host=db4
+[2026-01-26 10:23:57] WARN Slow query detected 1.8s
+[2026-01-26 10:23:58] ERROR Deadlock detected table=orders
+[2026-01-26 10:23:59] WARN Slow query detected 2.2s
+[2026-01-26 10:24:00] ERROR Connection timeout host=db5
+[2026-01-26 10:24:01] INFO Query executed in 55ms
+[2026-01-26 10:24:02] ERROR Deadlock detected table=inventory
+[2026-01-26 10:24:03] WARN Slow query detected 1.3s
+[2026-01-26 10:24:04] ERROR Connection timeout host=db6
+[2026-01-26 10:24:05] WARN Slow query detected 2.5s
+[2026-01-26 10:24:06] ERROR Deadlock detected table=users
+[2026-01-26 10:24:07] WARN Slow query detected 1.9s
+[2026-01-26 10:24:08] ERROR Connection timeout host=db7
+[2026-01-26 10:24:09] WARN Slow query detected 2.7s
+[2026-01-26 10:24:10] ERROR Connection timeout host=db8
+[2026-01-26 10:24:11] WARN Slow query detected 1.2s
+[2026-01-26 10:24:12] ERROR Deadlock detected table=payment
+[2026-01-26 10:24:13] WARN Slow query detected 2.6s
+[2026-01-26 10:24:14] ERROR Connection timeout host=db9
+[2026-01-26 10:24:15] WARN Slow query detected 1.5s
+[2026-01-26 10:24:16] ERROR Connection timeout host=db10
+[2026-01-26 10:24:17] WARN Slow query detected 2.9s
+[2026-01-26 10:24:18] ERROR Deadlock detected table=shipping
+[2026-01-26 10:24:19] WARN Slow query detected 1.8s
+[2026-01-26 10:24:20] ERROR Connection timeout host=db11
+[2026-01-26 10:24:21] WARN Slow query detected 2.4s
+[2026-01-26 10:24:22] ERROR Connection timeout host=db12
+[2026-01-26 10:24:23] WARN Slow query detected 1.1s
+[2026-01-26 10:24:24] ERROR Deadlock detected table=orders
+[2026-01-26 10:24:25] ERROR Connection timeout host=db13
+[2026-01-26 10:24:26] WARN Slow query detected 2.7s
+[2026-01-26 10:24:27] ERROR Connection timeout host=db14
+[2026-01-26 10:24:28] ERROR Connection timeout host=db15
+[2026-01-26 10:24:29] WARN Slow query detected 1.6s
+[2026-01-26 10:24:30] ERROR Connection timeout host=db16
+[2026-01-26 10:24:31] WARN Slow query detected 2.3s
+[2026-01-26 10:24:32] ERROR Connection timeout host=db17
+[2026-01-26 10:24:33] WARN Slow query detected 1.4s
+[2026-01-26 10:24:34] ERROR Deadlock detected table=inventory
+[2026-01-26 10:24:35] WARN Slow query detected 2.8s
+[2026-01-26 10:24:36] ERROR Connection timeout host=db18
+[2026-01-26 10:24:37] WARN Slow query detected 1.2s
+[2026-01-26 10:24:38] ERROR Connection timeout host=db19
+[2026-01-26 10:24:39] ERROR Connection timeout host=db20
