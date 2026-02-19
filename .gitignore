@@ -5,3 +5,4 @@ requirements.txt
 re.ipynb
 !logs/
 !logs/*.log
+assignment.md
